@@ -1,0 +1,504 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ .header {
+    background-color: black;
+    padding: 20px 0px ;
+} 
+
+.header .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+
+
+.header .navbar .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.header .navbar .navlinks a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.header .navbar .navlinks a:hover {
+    color: #DA7C48;
+    border-bottom: 1px solid #DA7C48;
+}
+
+
+.header .navbar .cart {
+    color: white;
+    font-size: 20px;
+}
+
+.header .navbar .cart:hover {
+    color: #DA7C48;
+    border-bottom: 1px solid #DA7C48;
+}
+
+.header .section-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 100px auto;
+    /* background-color: aqua; */
+
+}
+
+.header .section-1 .left-part {
+    width: 42%;
+    /* margin: auto; */
+    /* background-color: red; */
+    /* padding: 30px;    */
+    /* font-size: 30px; */
+
+}
+
+.header .section-1 .left-part p {
+    letter-spacing: 10px;
+    color: white;
+}
+
+
+.header .section-1 .left-part h1 {
+    margin: 20px 0px;
+    color: white;
+}
+
+.header .section-1 .left-part h5 {
+    margin: 20px 0px;
+    color: white;
+}
+
+.header .section-1 .left-part button {
+    background-color: #DA7C48;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+.header .section-1 .right-part {
+    width: 45%;
+    /* margin: auto */
+    /* background-color: blue; */
+
+}
+
+.header .section-1 .right-part .right-image {
+   width: 100%;
+   height: 100%;
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    gap: 20px;
+    width: 85%;
+    margin: 100px auto;
+}
+
+.section-2 .headphone,
+.speaker,
+.earphone {
+    background-color: rgba(128, 128, 128, 0.514);
+}
+
+.section-2 .headphone .headphone-image img {
+    width: 150px;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+
+}
+
+.section-2 .headphone .text {
+    text-align: center;
+    margin-top: -40px;
+
+}
+
+.section-2 .headphone .text p {
+    margin-top: 10px;
+}
+
+.section-2 .headphone .text .arrow {
+    color: #DA7C48;
+}
+
+.section-3 {
+    background-color: #DA7C48;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+.section-3 .display {
+    display: flex;
+    gap: 30px;
+}
+
+
+.section-3 .display .image{
+    width: 30%;
+    height: auto;
+}
+.section-3 .display .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-3 .display .text {
+    color: white;
+    margin: auto;
+}
+
+.section-3 .display .text h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.section-3 .display .text p {
+    margin: 20px 0px;
+}
+
+.section-3 .display .text button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+.section-4 {
+    background: linear-gradient(to left, #BBBBBB, #EBEBEB);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+.section-4 .display {
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+.section-4 .display .text {
+    color: black;
+
+}
+
+
+.section-4 .display .text h1 {
+    margin: 20px 0px;
+}
+
+.section-4 .display .text button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+
+.section-4 .display .image img {
+    width: 90%;
+    height: fit-content;
+}
+
+.section-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    width: 85%;
+    margin: 30px auto;
+    gap: 10px;
+}
+.section-5 .picture img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-5 .card {
+    background-color: #bbbbbb85;
+    padding: 40px 50px;
+
+}
+
+.section-5 .card h1 {
+    margin: 20px 0px;
+}
+
+.section-5 .card button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+
+.section-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 30px;
+    width: 85%;
+    margin: 90px auto;
+}
+
+.section-6 .content p {
+    margin: 20px 0px;
+}
+
+.section-6 .content .orange {
+    color: #DA7C48;
+}
+
+
+.section-6 .image{
+   width: 100%;
+   height: 40vh;
+
+
+}
+.section-6 .image img {
+    height: 100%;
+    width: 100%;
+}
+
+.futa {
+    background-color: black;
+    
+    margin-top: 100px;
+}
+
+.futa .content {
+    width: 85%;
+    margin: auto;
+}
+
+.futa .content .display {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+.futa .content .display .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.futa .content .display .logo a:hover {
+    color: #DA7C48;
+    border-bottom: 1px solid #DA7C48;
+}
+
+.futa .content .display .navlinks a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.futa .content .display .navlinks a:hover {
+    color: #DA7C48;
+    border-bottom: 1px solid #DA7C48;
+}
+
+.futa .content .text {
+    color: white;
+    margin-top: 30px;
+}
+
+.futa .content .last-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.futa .content .last-flex .write-up p {
+    color: white;
+}
+
+.futa .content .last-flex .icon {
+    color: white;
+
+}
+
+
+.futa .content .last-flex .icon .twitter {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .header .navbar .navlinks{
+        display: none;
+    }
+
+    .header .section-1 {
+        flex-direction: column ;
+    }
+    .section-1 .left-part {
+        position: absolute;
+        top: 250px;
+        left: 280px; 
+        z-index: 10; 
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .section-1 .right-part {
+        position: relative;
+        left: 170px;
+    }
+    
+    .section-2 .headphone .headphone-image img {
+        width: 150px;
+        position: relative;
+        bottom: 60px;
+        left: 60px;
+    
+    }
+
+    .section-3{
+        margin-bottom: 30px;
+    }
+    .section-3 .display{
+        flex-direction: column;
+    }
+    .section-3 .display .image{
+        width: 50%;
+        margin: auto;
+    }
+
+    .section-3 .display{
+        text-align: center;
+    }
+
+    .section-6{
+        grid-template-columns: 1fr;
+    }
+
+    .section-6 .content{
+        text-align: center;
+    }
+    
+    .section-6 .image{
+        width: 100%;
+        height: 30vh;
+    }
+    .section-6 .image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .futa{
+        margin-top: 300px;
+    }
+
+    .futa .content .display{
+        flex-direction: column;
+    }
+
+    .futa .content .display .logo{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .section-1 .left-part{
+        left: 200px;
+        bottom: 20px;
+        top: 200px;
+    }
+
+    .section-1 .right-part{
+        left: 60px; 
+    }
+
+    .section-2 .headphone .headphone-image img {
+        width: 150px;
+        position: relative;
+        bottom: 60px;
+        left: 40px;
+    
+    }
+
+}
+
+@media screen and (max-width:414px) {
+   
+    .header{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .section-1{
+        display: block;
+    }
+    .section-1 .left-part{
+      width: 20%;
+      position: absolute;
+      z-index: 10;
+      font-size: 10px;
+      left: 110px;
+    } 
+
+    .section-1 .right-part{
+        width: 100%;
+        position: relative;
+        left: 90px;
+        /* height: 100%; */
+     
+    }
+
+      .section-1 .right-part .right-image{
+        width: 100%;
+        padding: 20px;
+      }
+    .section-1 .right-part .right-image img{
+        width: 100%;
+        height:100%;
+    }
+
+    .section-2{
+        grid-template-columns: 1fr;
+        gap: 70px;
+    }
+ 
+
+     .section-2 .headphone .headphone-image img {
+        width: 170px;
+        position: relative;
+        /* bottom: 60px; */
+        left: 60px;
+
+    }
+
+    .section-2 .headphone .text {
+        text-align: center;
+        margin-top: -70px;
+    
+    }
+    
+}
